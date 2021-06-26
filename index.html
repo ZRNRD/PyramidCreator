@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="style.css">
+    <title>JavaScript</title>
+</head>
+<body >
+
+    <div class="container">
+
+        <header class="header">
+
+            <div class="pyrSymbol">
+                Выбери символ:
+                <select name="pyrSymbol__change" id="pyrSymbol__change">
+                    <option value="#">#</option>
+                    <option value="@">@</option>
+                    <option value="X">X</option>
+                    <option value="$">$</option>
+                </select>
+            </div>
+
+            <div class="pyrHeight">
+                Размер пирамиды: 
+                <input 
+                    type="range" min="1" max="15" 
+                    step="1" value="5" id="pyrHeight__change">
+                <label for="pyrHeight__change" id="pyrHeight__change__label">5</label>
+            </div>
+            
+        </header>
+
+        <div class="pyramid" id="pyramid">Пирамида</div>
+
+    </div>
+
+<script src="app.js"></script>
+
+</body>
+</html>

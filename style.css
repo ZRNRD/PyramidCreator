@@ -1,0 +1,33 @@
+body{
+    margin: 0;
+    font-size: 25px;
+}
+.container{
+    width: 80vw;
+    margin: 0 auto;
+    border: 1px solid black;
+}
+
+.header{
+    display: grid;
+    grid-template-areas: "pyrSymbol pyrHeight";
+    align-content: space-between;
+    justify-content: space-around;
+    height: 10vh;
+    background-color: #eee;
+}
+
+.pyrSymbol{
+    grid-area: "pyrSymbol";
+    margin-top: 1em;
+}
+.pyrHeight{
+    grid-area: "pyrHeight";
+    margin-top: 1em;
+}
+
+.pyramid{
+    width: 70%;
+    margin: 0 auto;
+}
+
